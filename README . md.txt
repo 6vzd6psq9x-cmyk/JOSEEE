@@ -1,0 +1,24 @@
+# 🖱️ Contador Interactivo Dinámico con IA (Gemini)
+
+Este proyecto es una aplicación de contador simple, construida con **HTML**, **Tailwind CSS** y **React**, potenciada con la integración de la **API de Google Gemini** para generar contenido dinámico.
+
+## Funcionalidades
+1.  **Contador Base:** Incrementa un valor con cada clic.
+2.  **Fondo Dinámico:** Cambia el color de fondo aleatoriamente con cada clic (opcional).
+3.  **Meta de la IA (Gemini):** En el menú de configuración, al hacer clic en el botón "Meta de la IA ✨", el modelo Gemini genera:
+    * Un mensaje de felicitación personalizado basado en el número de clics actual.
+    * Una meta lúdica para el siguiente hito significativo, actuando como un entrenador motivacional.
+
+## Archivos Clave para Despliegue
+
+| Archivo | Descripción |
+| :--- | :--- |
+| `index.html` | El código fuente de la aplicación (incluye React, la interfaz y la lógica de la llamada a la API de Gemini). |
+| `netlify.toml` | Archivo de configuración que le dice a Netlify que **`index.html`** es la página de inicio. |
+| `README.md` | La documentación del proyecto. |
+
+## 🚀 Pasos para el Despliegue Final
+1.  Asegúrate de que los tres archivos (`index.html`, `netlify.toml`, `README.md`) estén en la **raíz** de tu carpeta.
+2.  Sube esta carpeta a GitHub.
+3.  Conecta el repositorio en Netlify.
+4.  ¡Tu sitio estará publicado y listo para usar!

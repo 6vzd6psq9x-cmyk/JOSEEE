@@ -1,0 +1,17 @@
+# netlify.toml
+# Este archivo configura los ajustes de despliegue para Netlify.
+
+[build]
+  # No se necesita comando de construcción ya que es HTML/React estático.
+  command = ""
+  
+  # Directorio a publicar: la raíz del repositorio.
+  publish = "."
+
+# Regla de Redireccionamiento:
+# Asegura que cuando alguien visite la raíz del sitio (/)
+# se le sirva el archivo principal, llamado index.html
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
